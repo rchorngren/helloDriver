@@ -24,5 +24,4 @@ fun main() {
     vehicle2.drive() // Prints “MilitaryTank drove 5 miles - 1995 miles to go”
     vehicle1.drive() // Prints “Car drove 10 miles - 80 miles to go”
     vehicle2.drive() // Prints “MilitaryTank drove 5 miles - 1990 miles to go”
-
 }

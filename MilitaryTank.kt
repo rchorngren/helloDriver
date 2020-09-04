@@ -1,10 +1,10 @@
 class MilitaryTank(
         driver : Driver? = null
 
-) : Vehicle (driver) {
+) : Vehicle(driver) {
     var distanceToGo : Int = 2000
     var distancePerDrive : Int = 5
-    var name: String = this.javaClass.simpleName
+    var name : String = this.javaClass.simpleName
 
     override fun drive() {
         when {
